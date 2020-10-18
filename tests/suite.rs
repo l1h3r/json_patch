@@ -24,7 +24,7 @@ struct Test {
   expected: Option<Value>,
 }
 
-const INVALID_POINTER: &'static [&'static str] = &[
+const INVALID_POINTER: &[&str] = &[
   // tests.json
   "Out of bounds (upper)",
   "Out of bounds (lower)",
@@ -45,7 +45,7 @@ const INVALID_POINTER: &'static [&'static str] = &[
   "add to a non-existent target",
 ];
 
-const INVALID_TEST: &'static [&'static str] = &[
+const INVALID_TEST: &[&str] = &[
   // tests.json
   "test op should fail",
   "test op shouldn't get array element 1",
