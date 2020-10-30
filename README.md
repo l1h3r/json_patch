@@ -7,6 +7,8 @@
 - [JSON Patch](https://tools.ietf.org/html/rfc6902)
 - [JSON Merge Patch](https://tools.ietf.org/html/rfc7396)
 
+<br>
+
 #### License
 
 <sup>
